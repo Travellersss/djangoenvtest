@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import os
 import sys
+import redis
+
 import jinja2
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
