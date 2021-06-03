@@ -18,6 +18,8 @@ import jinja2
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 import polls.apps
 import updateaardio.apps
+import os
+import requests
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
